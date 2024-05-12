@@ -73,13 +73,15 @@ body {
 .home {
   min-height: 100vh;
   margin-top: -6rem;
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
+  background-color: #dad6d4;
 }
 
 .home h2,
 .Story h2,
-.gallery h2 {
+.gallery h2,
+.rsvp h2 {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: bold;
@@ -98,7 +100,7 @@ body {
 }
 
 .home .couple {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .home .couple {
@@ -115,7 +117,8 @@ body {
   width: 100%;
 }
 
-.info {
+.info,
+.Story {
   background-color: #dad6d4;
   color: #474747;
   padding-top: 5rem;
@@ -162,7 +165,9 @@ body {
   font-weight: 300;
 }
 
-.Story {
+.Story,
+.Story,
+.rsvp {
   padding-top: 5%;
   padding-bottom: 8rem;
 }
@@ -178,7 +183,8 @@ body {
 }
 
 .Story p,
-.gallery p {
+.gallery p,
+.rsvp p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -281,10 +287,16 @@ body {
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-color: #dad6d4;
 }
 
-/* Media Quary */
+.rsvp {
+  background-color: #dad6d4;
+}
+.rsvp form label {
+  color: #5c4928;
+}
+/* Mdia Quary */
 
 /* Laptop */
 @media (max-width: 992px) {
