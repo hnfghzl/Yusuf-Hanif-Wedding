@@ -81,7 +81,8 @@ body {
 .home h2,
 .Story h2,
 .gallery h2,
-.rsvp h2 {
+.rsvp h2,
+.gifts h2 {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: bold;
@@ -167,13 +168,15 @@ body {
 
 .Story,
 .Story,
-.rsvp {
+.rsvp,
+.gifts {
   padding-top: 5%;
   padding-bottom: 8rem;
 }
 
 .Story span,
-.gallery span {
+.gallery span,
+.gifts {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -296,6 +299,17 @@ body {
 .rsvp form label {
   color: #5c4928;
 }
+
+.rsvp button {
+  background-color: var(--pink);
+  color: white;
+  border: 1px solid var(--pink);
+}
+.rsvp button ::hover {
+  background-color: white;
+  color: var(--pink);
+  border: 1px solid white;
+}
 /* Mdia Quary */
 
 /* Laptop */
@@ -335,6 +349,18 @@ body {
     left: -13px;
     right: auto;
   }
+}
+
+footer {
+  padding: 3rem;
+  background-color: #999;
+  color: white;
+}
+
+footer a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* Tablet  */
