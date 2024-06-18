@@ -82,7 +82,8 @@ body {
 .Story h2,
 .gallery h2,
 .rsvp h2,
-.gifts h2 {
+.gifts h2,
+.thanks h2 {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: bold;
@@ -118,7 +119,13 @@ body {
   width: 100%;
 }
 
-.info,
+.info {
+  background-color: #bab1d4;
+  color: #474747;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
 .Story {
   background-color: #dad6d4;
   color: #474747;
@@ -176,7 +183,8 @@ body {
 
 .Story span,
 .gallery span,
-.gifts {
+.gifts,
+.thanks span {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -185,9 +193,19 @@ body {
   display: block;
 }
 
+.gallery img {
+  width: 150%;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 5rem;
+}
+.thanks {
+  margin-bottom: 5rem;
+}
 .Story p,
 .gallery p,
-.rsvp p {
+.rsvp p,
+.thanks p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -205,7 +223,7 @@ body {
   bottom: 0;
   position: absolute;
   width: 1px;
-  background-color: #ccc;
+  background-color: #cccccc;
   left: 50%;
 }
 
@@ -290,11 +308,11 @@ body {
 }
 
 .gallery {
-  background-color: #dad6d4;
+  background-color: #bab1d4;
 }
 
 .rsvp {
-  background-color: #dad6d4;
+  background-color: #ccc;
 }
 .rsvp form label {
   color: #5c4928;
