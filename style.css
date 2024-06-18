@@ -120,7 +120,7 @@ body {
 }
 
 .info {
-  background-color: #bab1d4;
+  background-color: #dad6d4;
   color: #474747;
   padding-top: 5rem;
   padding-bottom: 8rem;
@@ -132,7 +132,9 @@ body {
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
-
+.gifts {
+  background-color: #dad6d4;
+}
 .info h2 {
   font-family: "sacramento";
   font-size: 5rem;
@@ -194,13 +196,15 @@ body {
 }
 
 .gallery img {
-  width: 150%;
+  width: 200px;
   height: 350px;
   object-fit: cover;
   margin-bottom: 5rem;
 }
 .thanks {
-  margin-bottom: 5rem;
+  padding-top: 0%;
+  margin-bottom: 0rem;
+  background-color: #dad6d4;
 }
 .Story p,
 .gallery p,
@@ -308,11 +312,11 @@ body {
 }
 
 .gallery {
-  background-color: #bab1d4;
+  background-color: #dad6d4;
 }
 
 .rsvp {
-  background-color: #ccc;
+  background-color: #dad6d4;
 }
 .rsvp form label {
   color: #5c4928;
